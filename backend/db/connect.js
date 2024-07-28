@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-require('dotenv').config()
+require('dotenv').config();
 const { User } =  require("../schemas/user.model.js");
 function Connect()
 {
