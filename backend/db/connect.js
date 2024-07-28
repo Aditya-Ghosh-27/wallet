@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 require('dotenv').config()
-const { User } =  require("../Schemas/user.model.js");
+const { User } =  require("../schemas/user.model.js");
 function Connect()
 {
 mongoose.connect(`${process.env.MONGO_URL}/Paytm`).then(()=>{
