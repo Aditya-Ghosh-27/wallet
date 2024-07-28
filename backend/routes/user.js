@@ -1,8 +1,8 @@
 const { Router } = require("express");
-const { User } = require("../Schemas/user.model");
+const { User } = require("../schemas/user.model.js");
 const zod = require("zod");
 const router = Router();
-const Balance = require("../Schemas/balance.model.js");
+const Balance = require("../schemas/balance.model.js");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 const JWT_Password = require("../config.js");
